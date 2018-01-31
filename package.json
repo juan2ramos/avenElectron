@@ -1,0 +1,25 @@
+{
+  "name": "avenaelectron",
+  "version": "1.0.0",
+  "description": "Aplicativo electron para avena",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electron src/index.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juan2ramos <juan2ramos@gmail.com> (https://juan2ramos.com)",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.1.3",
+    "electron-compile": "^6.4.2",
+    "electron-debug": "^1.5.0",
+    "electron-settings": "^3.1.4",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-prebuilt-compile": "^1.7.11",
+    "standard": "^10.0.3"
+  }
+}
